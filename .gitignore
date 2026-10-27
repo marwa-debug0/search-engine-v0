@@ -1,4 +1,6 @@
 *.tmp
 *.log
 *.jsonl
+*.json
 *.txt
+.gitignore
