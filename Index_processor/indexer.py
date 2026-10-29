@@ -9,6 +9,7 @@ OUTPUT_PATH = "inverted_index.json"
 
 
 def build_index(input_path):
+    # Embedded dictionaries
     inverted_index = defaultdict(lambda: defaultdict(int))
 
     with open(input_path, "r", encoding="utf-8") as infile:
