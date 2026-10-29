@@ -8,3 +8,6 @@ Added the index processing module : build the inverted index from the processed 
 
 ## Log 3 : 
 Added the query processing module : takes a query as an input and processes it then returns the processed tokens
+
+## Log 4: 
+Added the ranking processing module : builds the ranking system using the cosine similarity
