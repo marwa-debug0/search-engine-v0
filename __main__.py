@@ -3,7 +3,7 @@ from query_proc import process_query
 from rank_proc import INDEX_PATH
 from rank_proc import load_index, count_documents, calculate_idf, calculate_document_norms, rank_documents
 
-query = "How to print a string in python?"
+query = "ADHD in women"
 
 INDEX = load_index("inverted_index.json")
 total_documents = count_documents("processed_wiki.jsonl")
