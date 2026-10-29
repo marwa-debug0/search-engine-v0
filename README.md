@@ -11,3 +11,9 @@ Added the query processing module : takes a query as an input and processes it t
 
 ## Log 4: 
 Added the ranking processing module : builds the ranking system using the cosine similarity
+
+Comment: 
+Since the database that I with is limited to 10_000 wikipedia articles the results are not accurate.
+Here is the results for the query "ADHD in women" : 
+<img width="958" height="246" alt="image" src="https://github.com/user-attachments/assets/37b1dc8c-c32a-49d3-9fd9-7cbecdf102d1" />
+
